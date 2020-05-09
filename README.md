@@ -2,9 +2,19 @@
 
 This is a chinese card game to be played on console. Currently it only supports MacOS, but Windows and Linux versions will be released in future updates.
 
-## How to Play
+## Installation
 
-Open the executable file "card-game" under the build folder. Make sure your terminal is large enough so that the game can be rendered properly. 
+For MacOS users, first run the following command in terminal:
+
+```zsh
+$ brew install ncurses
+```
+
+Then you can open the executable file "card-game" under the build folder. Make sure your terminal is large enough so that the game can be rendered properly. 
+
+Or you can compile your own executable with source files using CMake. CMakeLists.txt is provided.
+
+## How to Play
 
 Use keyboard arrow keys to select buttons or cards, and hit enter to click on what you select. When selecting cards, use ALT + left/right to select multiple cards. 
 
